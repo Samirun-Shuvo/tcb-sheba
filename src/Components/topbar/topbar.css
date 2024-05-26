@@ -1,0 +1,47 @@
+.topbar_section_container {
+  background-color: #7d48ec;
+  color: rgb(255, 255, 255);
+  padding: 8px 0px;
+}
+.social_container {
+  display: flex;
+  align-items: center;
+}
+.social_container span {
+  padding: 0px 10px;
+  font-size: 20px;
+}
+.top_nav_icons {
+  color: white;
+  cursor: pointer;
+}
+.top_nav_icons:hover {
+  color: wheat;
+  transition: all 0.2s ease-in-out;
+}
+
+.mobileApp_link {
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 12px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mobileApp_link:hover {
+  color: wheat;
+}
+.mobileApp_link span {
+  margin-left: 5px;
+}
+.phone_icon {
+  font-size: 28px !important;
+  margin-right: 15px;
+  margin-top: -7px;
+}
+
+.helpline_text {
+  font-size: 12px;
+  text-align: start;
+}
