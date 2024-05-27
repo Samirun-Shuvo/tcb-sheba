@@ -41,6 +41,12 @@
     margin-left: 15px;
     font-weight: bold;
 }
+.logo-text h6{
+    color: #8a7373;
+}
+.logo-text h5{
+    color: #444242;
+}
 .footer-bottom .copyright {
     margin: 35px 0 0;
     padding: 8px 0;
