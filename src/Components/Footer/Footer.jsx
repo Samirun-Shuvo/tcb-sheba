@@ -86,7 +86,7 @@ const Footer = () => {
             <div className="col-sm-12 col-md-6 col-lg-6 my-2">
               <div className="logo-wrapper">
                 <img src={tcblogo} className="img-fluid" alt="" />
-                <div className="logo-text">
+                <div className="logo-text lh-1">
                   <h6>পরিকল্পনা ও বাস্তবায়নেঃ</h6>
                   <h5>ট্রেডিং কর্পোরেশন অব বাংলাদেশ</h5>
                   <a href="https://tcb.gov.bd/" target="_blank">
@@ -98,7 +98,7 @@ const Footer = () => {
             <div className="col-sm-12 col-md-6 col-lg-6 my-2">
               <div className="logo-wrapper">
                 <img src={sisllogo} className="img-fluid" alt="" />
-                <div className="logo-text">
+                <div className="logo-text lh-1">
                   <h6>কারিগরি সহযোগিতায়ঃ</h6>
                   <h5>স্পেকট্রাম আইটি সলিউশনস লিঃ</h5>
                   <a href="https://spectrum.com.bd/" target="_blank">
@@ -108,7 +108,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row mt-1">
             <div className="col-sm-12">
               <div className="copyright">
                 <p>কপিরাইট © ২০২৪ ট্রেডিং কর্পোরেশন অব বাংলাদেশ</p>

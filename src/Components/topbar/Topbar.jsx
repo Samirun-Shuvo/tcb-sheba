@@ -31,13 +31,21 @@ const Topbar = () => {
             <div className="col-sm-12 col-md-6 col-lg-6">
               <div className="d-flex justify-content-end align-items-center">
                 <div className="mobileApp_link">
-                  <img src={phoneIcon} alt="phoneIcon" />
-                  <span>মোবাইল অ্যাপ </span>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.spectrum.tcbapp"
+                    className="signin"
+                    target="_blank"
+                  >
+                    <img src={phoneIcon} alt="" />
+                    <span>মোবাইল অ্যাপ </span>
+                  </a>
                 </div>
                 <div className="mx-2">|</div>
                 <div className="helpline_text">
-                  <FaPhoneAlt className="" />- 096 381 118 88 ( 9:00 AM - 6:00
-                  PM )
+                  <div>
+                    <FaPhoneAlt className="" />- 096 381 118 88
+                  </div>
+                  <div>( 9:00 AM - 6:00 PM )</div>
                 </div>
               </div>
             </div>

@@ -20,7 +20,7 @@
   transition: all 0.2s ease-in-out;
 }
 
-.mobileApp_link {
+.mobileApp_link a{
   font-weight: 700;
   cursor: pointer;
   font-size: 12px;
@@ -28,8 +28,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
-.mobileApp_link:hover {
+.mobileApp_link a:hover {
   color: wheat;
 }
 .mobileApp_link span {
