@@ -86,7 +86,7 @@ const VideoGallery = () => {
               </div>
             </div>
             <div className="col-sm-12">
-              <div className="text-center mt-3">
+              <div className="text-center mb-5 pt-2">
                 <a href="#">
                   সকল ভিডিও দেখুন <i className="icofont-long-arrow-right"></i>
                 </a>
