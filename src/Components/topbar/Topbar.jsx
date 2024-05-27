@@ -41,9 +41,9 @@ const Topbar = () => {
               <span>মোবাইল অ্যাপ </span>
             </a>
           </div>
-          <div className="mx-2">|</div>
+          <div className="mx-4">|</div>
           <div className="helpline_text">
-            <FaPhoneAlt /> - 096 381 118 88 ( 9:00 AM - 6:00 PM )
+            <FaPhoneAlt /> - 096 381 118 88 <br /> ( 9:00 AM - 6:00 PM )
           </div>
         </div>
       </div>

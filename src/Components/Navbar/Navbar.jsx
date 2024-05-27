@@ -10,9 +10,9 @@ const Navbar = () => {
           href="/"
         >
           <img src={govtLogo} className="govtLogo" alt="Government Logo" />
-          <div className="p-2 navlogotext">
-            <h5 className="fw-bold fs-5 lh-1">হাতের মুঠোয় টিসিবি পণ্য</h5>
-            <h6 className="fw-bold fs-6 lh-1">অনলাইন সেবা বাতায়ন</h6>
+          <div className="navlogotext">
+            <div className="navlogotext_top">হাতের মুঠোয় টিসিবি পণ্য</div>
+            <div className="navlogotext_bottom">অনলাইন সেবা বাতায়ন</div>
           </div>
         </a>
         <button
@@ -54,7 +54,11 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="https://tcbsheba.com/contact-us">
+              <a
+                className="nav-link active"
+                aria-current="page"
+                href="https://tcbsheba.com/contact-us"
+              >
                 যোগাযোগ
               </a>
             </li>
