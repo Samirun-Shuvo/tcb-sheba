@@ -18,8 +18,8 @@ const Login = () => {
     <div className="login_section_container text-white d-flex justify-content-center align-items-center">
       <div className="login-wrapper p-4 rounded shadow">
         <div className="text-center my-1">
-          <h5 className="mb-3">হাতের মুঠোয় টিসিবি পণ্য</h5>
-          <p className="mb-1">লগইন করুন</p>
+          <h5>হাতের মুঠোয় টিসিবি পণ্য</h5>
+          <p className="my-3">লগইন করুন</p>
         </div>
         <div className="form-wrapper">
           <form
@@ -88,7 +88,7 @@ const Login = () => {
               />
             </div>
 
-            <div className="form-check mb-2">
+            <div className="form-check mb-3">
               <input
                 type="checkbox"
                 name="remember"
@@ -100,12 +100,12 @@ const Login = () => {
               </label>
             </div>
 
-            <div className="d-grid mt-4 mb-4">
+            <div className="d-grid mb-4">
               <button type="submit" className="btn btn-primary btn-block">
                 <FaSignInAlt /> লগইন
               </button>
             </div>
-            <div className="d-grid mt-2 forget_pass">
+            <div className="d-grid forget_pass">
               <a href="https://tcbsheba.com/password-reset-info">
                 পাসওয়ার্ড পরিবর্তন / পুনরুদ্ধার
               </a>
