@@ -19,12 +19,12 @@ const VideoGallery = () => {
                 <iframe
                   id="player"
                   frameBorder="0"
-                  allowfullscreen=""
+                  allowFullScreen=""
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerPolicy="strict-origin-when-cross-origin"
                   title="পাঁচ কোটি মানুষকে কম মূল্যে নিত্যপণ্য দেয়ার সিদ্ধান্ত | TCB Family Smart Card | TCB Product"
                   width="100%"
-                  height="450"
+                  height="430"
                   src="https://www.youtube.com/embed/M7Y4PV0Mxx0?autoplay=0&amp;controls=1&amp;rel=0&amp;showinfo=0&amp;modestbranding=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Ftcbsheba.com&amp;widgetid=1"
                 ></iframe>
               </div>
@@ -34,7 +34,7 @@ const VideoGallery = () => {
                 <iframe
                   id="player-one"
                   frameBorder="0"
-                  allowfullscreen=""
+                  allowFullScreen=""
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerPolicy="strict-origin-when-cross-origin"
                   title="টিসিবি কার্ডধারীদের তালিকা হালনাগাদ হচ্ছে: বাণিজ্য প্রতিমন্ত্রী | TCB Product | Family Card"
@@ -47,7 +47,7 @@ const VideoGallery = () => {
                 <iframe
                   id="player-two"
                   frameBorder="0"
-                  allowfullscreen=""
+                  allowFullScreen=""
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerPolicy="strict-origin-when-cross-origin"
                   title="টিসিবির পণ্য এবার স্থায়ী দোকান থেকে বিতরণ করা হবে: বাণিজ্য প্রতিমন্ত্রী | News24"
@@ -62,7 +62,7 @@ const VideoGallery = () => {
                 <iframe
                   id="player-three"
                   frameBorder="0"
-                  allowfullscreen=""
+                  allowFullScreen=""
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerPolicy="strict-origin-when-cross-origin"
                   title="ফ্যামিলি কার্ড অনিয়ম ঠেকাতে টিসিবির স্মার্ট কার্ড | Smart Family Card | Ekhon TV"
@@ -75,7 +75,7 @@ const VideoGallery = () => {
                 <iframe
                   id="player-four"
                   frameBorder="0"
-                  allowfullscreen=""
+                  allowFullScreen=""
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerPolicy="strict-origin-when-cross-origin"
                   title="বন্ধ হচ্ছে একই পরিবারের একাধিক ‘ফ্যামিলি কার্ড’ ব্যবহার | TCB Smart Card | Jamuna TV"

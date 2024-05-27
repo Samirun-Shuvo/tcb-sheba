@@ -1,15 +1,19 @@
-import Jiggasha from "./Jiggasha";
 import Login from "./Login";
 import Tottho from "./Tottho";
 import "./TotthoJiggashaLogin.css";
 
 const TotthoJiggshaLogin = () => {
   return (
-    <div className="tottho_jiggsha_login_section">
-      <div className="tottho_jiggsha_login_section_container container">
-        <Tottho />
-        <Jiggasha />
-        {/* <Login /> */}
+    <div className="topbanner_container">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-6">
+            <Tottho></Tottho>
+          </div>
+          <div className="col-md-6">
+            <Login></Login>
+          </div>
+        </div>
       </div>
     </div>
   );

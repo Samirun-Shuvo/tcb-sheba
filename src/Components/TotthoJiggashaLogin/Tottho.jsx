@@ -1,3 +1,4 @@
+import './tottho.css'
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const Tottho = () => {
